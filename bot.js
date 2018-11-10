@@ -43,7 +43,7 @@ client.on('ready', () => {
     client.user.setStatus("idle")
 });
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const prefix = "R"
+const prefix = "1"
 client.on('message', async msg => { // eslint-disable-line
     if (msg.author.bot) return undefined;
     //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
@@ -236,8 +236,8 @@ function play(guild, song) {
 }//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
  
 
-const adminprefix = "R";
-const devs = ['502526154323001364' , '336773905043685390' , ''];
+const adminprefix = "1";
+const devs = ['285804296400797697' , '448590558160748545' , ''];
 client.on('message', message => {//for dev
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -265,7 +265,7 @@ if (message.content.startsWith(adminprefix + 't')) {
  
    
    client.on("message", message => {
- if (message.content === "Rhelp") {
+ if (message.content === "1help") {
   const embed = new Discord.RichEmbed() 
       .setColor("RANDOM")
       .setDescription(`
@@ -302,7 +302,7 @@ ${prefix}t ⇏ تغيير تويتش البوت
 
 •••【 ابري ذمتي امام الله كل من سمع الاغاني 】•••
 `)
-   .setFooter("By : FiKO || ໑ڪــɹ̤ᓅ")
+   .setFooter("By : 𝕸𝕬𝕽𝕴𝕬𝕸#1548")
    message.channel.sendEmbed(embed)
     
    }
